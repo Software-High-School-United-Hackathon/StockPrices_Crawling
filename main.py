@@ -27,7 +27,6 @@ def post_data():
 def stock_propensity(s0: int, s1: int, s2: int, s3: int, s4: int, s5: int, s6: int, s7: int, s8: int, s9: int):
 
     vals = [s0, s1, s2, s3, s4, s5, s6, s7, s8, s9]
-
     for i in range(len(vals)):
         vals[i] = abs(vals[i])
 
